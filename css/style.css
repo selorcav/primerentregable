@@ -1,0 +1,144 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-position: center;
+	background-attachment: fixed;
+	background-image: url(../images/background.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar{
+	background-color: black;
+	border-radius: 0;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 0;
+}
+.navbar .navbar-brand img{
+	height: 160%;
+}
+.navbar a{
+	color: white;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: #1F1F1F;
+	color: #FFD900;
+	text-shadow: none;
+}
+.main_nav .icon-bar{
+	background-color: white;
+}
+.portfolio{
+	height: auto;
+	background-color: rgba(54, 54, 54, .9);
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.portfolio h1{
+	font-family: 'Bungee', cursive;
+	color: white
+}
+.portfolio__item{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;
+	text-align: center;
+	position: relative;
+}
+.portfolio__item h3{
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-shadow: 2px 2px rgba(54, 54, 54, .9)
+}
+.portfolio__item .portfolio__item_wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, .8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: .3s;
+}
+.portfolio__item:hover .portfolio__item_wrapper{
+	background-color: rgba(0, 0, 0, .2);
+}
+
+.portfolio__item--idcorp{
+	background-image: url(../images/port1.jpg);
+}
+.portfolio__item--mg{
+	background-image: url(../images/mg.jpg);
+}
+.portfolio__item--illustration{
+	background-image: url(../images/illust.jpg);
+}
+.portfolio__item--dibtec{
+	background-image: url(../images/dibtec.jpg);
+}
+.portfolio__item--web{
+	background-image: url(../images/web.jpg);
+}
+.portfolio__item--impr{
+	background-image: url(../images/impr.jpg);
+}
+
+@media(max-width: 768px){
+	.portfolio__item{
+		height: 100px;
+		width: 100%;
+	}
+}
+.about_me{
+	height: auto;
+	background-color: rgba(54, 54, 54, .9);
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.about_me__bio h1{
+	font-family:'Bungee', cursive;
+	color: white; 
+}
+.about_me__bio p{
+	color: white;
+	font-size: 16px;
+}
+.about_me__img img{
+	height: 290px;
+}
+.contact{
+	height: auto;
+	background-color: rgba(54, 54, 54, .9);
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.bg-info{
+	background-color: black;
+}
+.bg-info h3, p{
+	font-family: 'Oswald', sans-serif;
+	color: #FFD900;
+}
+
+footer{
+	margin-top:  10px;
+	padding: .5em 2em;
+	background-color: black;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+footer	p{
+	font-size: 12px;
+}
+footer	h4{
+	font-size: 14px;
+	color: #FFD900;
+}
+footer	img{
+	height: 50px;
+	padding-bottom: .5em;
+}

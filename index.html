@@ -1,1 +1,212 @@
-index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sebastián Lorca - Diseñador</title>
+	<!-- Bootstrap-->
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"><!-- Optional theme -->
+	<link rel="stylesheet" href=" https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee|Oswald" rel="stylesheet">
+	<!-- MI CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<!--INICIO NAVBAR-->
+		<div class="main_nav">
+			<nav class="navbar" >
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar" ></span>
+							<span class="icon-bar" ></span>
+							<span class="icon-bar" ></span>
+						</button>
+						<a class="navbar-brand" href="#"><img src="images/brand.svg" alt="logo"></a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#"><strong>Inicio</strong></a></li>
+							<li><a href="#"><strong>Portafolio</strong></a></li>
+							<li><a href="#"><strong>Sobre mi</strong></a></li>
+							<li><a href="#"><strong>Contacto</strong></a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		<!--FIN NAVBAR-->
+		<!--INICIO SLIDER-->
+		<div class="slider">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+
+					<div class="item active">
+						<img src="images/slide1.jpg" alt="Los Angeles" style="width:100%;">
+						<div class="carousel-caption">
+							<h3>MANUAL CORPORATIVO - EDITORIAL LUNARIS</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/slide2.jpg" alt="Chicago" style="width:100%;">
+						<div class="carousel-caption">
+							<h3>MATERIAL POP - CAMPAÑA NIDO</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/slide3.jpg" alt="New York" style="width:100%;">
+						<div class="carousel-caption">
+							<h3>PROYECTOS DE ILUSTRACIÓN - LIBRO QUEEN</h3>
+						</div>
+					</div>
+				</div>
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<!--FIN SLIDER-->
+	</header>
+
+	<div class="container portfolio">
+		<h1>PORTAFOLIO</h1>
+
+		<div class="row" >
+			<div class="col-md-4 col-sm-6 portfolio__item portfolio__item--idcorp">
+				<a href="#">
+					<div class="portfolio__item_wrapper">
+						<h3>IDENTIDAD CORPORATIVA</h3>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 portfolio__item portfolio__item--mg">
+				<a href="#">
+					<div class="portfolio__item_wrapper">
+						<h3>MOTION GRAPHICS</h3>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 portfolio__item portfolio__item--illustration">
+				<a href="#">
+					<div class="portfolio__item_wrapper">
+						<h3>ILUSTRACIÓN</h3>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 portfolio__item portfolio__item--dibtec">
+				<a href="#">
+					<div class="portfolio__item_wrapper">
+						<h3>DIBUJO TÉCNICO</h3>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 portfolio__item portfolio__item--web">
+				<a href="#">
+					<div class="portfolio__item_wrapper">
+						<h3>DESARROLLO WEB</h3>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 portfolio__item portfolio__item--impr">
+				<a href="#">
+					<div class="portfolio__item_wrapper">
+						<h3>MATERIAL IMPRESO</h3>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="container about_me">
+		<div class="row">
+			<div class="col-md-4 about_me__img">
+				<img src="images/profile.svg" alt="">
+			</div>
+			<div class="col-md-8 about_me__bio">
+				<h1>Sobre mi</h1>
+				<p>Diseñador gráfico con interés en el área editorial, identidad corporativa e ilustración.  Con conocimientos técnicos en pre-prensa y procesos de impresión. Cuento con experiencia en editoriales y casa de estudios, a cargo de diseño y diagramación de producciones literarias, diseño e ilustración de portadas, desarrollo y producción de originales, visto bueno en producción y gestión con clientes e imprentas. <br>
+					Dentro de mis habilidades cuento con manejo a la frustración, proactividad, adaptación,
+					creatividad y participación activa en equipos de trabajo.
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!--FORM CONTACT-->
+	<div class="container">
+		<div class="contact">
+			<form>
+				<div class="bg-info text-white text-center py-2">
+					<h3>Contactame</h3>
+					<p class="m-0">Con gusto te ayudaré</p>
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Tu nombre</label>
+					<input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Tu correo</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu correo">
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1">Tu mensaje</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+				<div class="text-center">
+					<input type="submit" value="Enviar" class="btn btn-info btn-block rounded-0 py-2">
+				</div>
+			</form>
+		</div>
+	</div>
+	<footer>
+		<div class="row">
+			<div class="col-md-6">
+				<h4><strong>REDES SOCIALES</strong></h4>
+				<a href="#"><img class="icon" src="images/fb.svg" alt=""></a>
+				<a href="#"><img class="icon" src="images/wsp.svg" alt=""></a>
+				<a href="#"><img class="icon" src="images/tw.svg" alt=""></a>
+				<a href="#"><img class="icon" src="images/ig.svg" alt=""></a>
+			</div>
+			<div class="col-md-6">
+				<h4><strong>CONTACTO</strong></h4>
+				<p>Sebastián Lorca - Diseñador gráfico</p>
+				<p><span class="glyphicon glyphicon-map-marker"></span><strong> Dirección</strong> Froilán Roa 7107, La Florida, Región Metropolitana</p>
+				<p><span class="glyphicon glyphicon-earphone"></span><strong> Teléfono</strong> +56979942563</p>
+				<p><span class="glyphicon glyphicon-envelope"></span><strong> E-Mail</strong> se.lorcav@gmail.com</p>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+	<script src="js/jquery-1.11.1.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src=" https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
